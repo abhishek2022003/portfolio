@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&family=Yellowtail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    font-family: 'Yellowtail', cursive;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    color: aliceblue;
+}
+.for_all{
+    max-width: 1300px;
+    padding: 0px 80px;
+    margin: auto;
+}
+.navbar li a{
+    color: aliceblue;
+}
+.head{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.navbar .for_all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-btn{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+.home{
+    display: flex;
+    background-color: black;
+    background-size: 100% 80%;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Yellowtail', cursive;
+}
+ .home .for_all{
+    margin: auto 0 auto 40px;
+ }
+.home .home_content .text1{
+    font-size: 30px;
+}
+.home .home_content .text2{
+    font-size: 50px;
+    color: rgb(243, 14, 14);
+}
+.home .home_content .text3{
+    font-size: 37px;
+}
+.home .home_content .text3 span{
+    font-size: 37px;
+    color: crimson;
+}
+section{
+    padding: 100px 0;
+}
+.profile .head{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile .profile_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.services .service-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile .profile_content .col_left img{
+    height: 400px;
+    width: 400px;
+}
+.profile .profile_content .col_left{
+    width: 40%;
+}
+.profile .profile_content .col_right{
+    width: 60%;
+}
+.profile .profile_content .col_right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.services{
+    background-color: black;
+}
+.services .for_all .head{
+    color: rgb(219, 27, 27);
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+.services .service-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 2px 2px rgba(21, 223, 128, 0.952);
+}
+.services .service-content .card .box .text{
+    font-size: 25px;
+    color: rgb(214, 218, 29);
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.services .service-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .service-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .service-content .card:hover{
+    background: rgba(220, 20, 60, 0.247);
+}
+.services .service-content .card .box p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(122, 228, 192);
+}
+.skills .skills_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills_content .col{
+    width: calc(50% - 30px);
+}
+.skills .skills_content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills_content .right .info span{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+.skills .skills_content .right .bsc{
+    height: 5px;
+    width: 75%;
+    background: crimson;
+}
+.skills .skills_content .right .msc{
+    height: 5px;
+    width: 55%;
+    background: crimson;
+}
+.skills .skills_content .right .maths{
+    height: 5px;
+    width: 50%;
+    background: crimson;
+}
+.skills .skills_content .left a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px 2px solid;
+    transition: all 0.3s ease;
+}
+.skills .skills_content .left a:hover{
+    background: none;
+    color: crimson;
+}
+.contact .contact_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .contact_content .col{
+    width: calc(50% - 30px);
+}
+.contact .contact_content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact_content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact_content .row .info{
+    margin-left: 30px;
+}
+.contact .contact_content .row i{
+    color: crimson;
+    font-size: 30px;
+}
+.contact .contact_content .row .info .title{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact .contact_content .row .info .subtitle{
+    font-size: 15px;
+    font-weight: 400;
+}
+.contact .contact_content .right .text{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: crimson;
+    margin-bottom: 10px;
+}
+
+.contact .contact_content .right form .fields .field{
+    margin: 10px 2px;
+    width: 100%;
+}
+.contact .right form .field input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 0 10px;
+    outline: none;
+}
+.contact .right form .fields .textarea textarea{
+    height: 80px;
+    width: 100%;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    padding: 0 10px;
+    outline: none;
+}
+.contact .right form .button{
+    height: 50px;
+    width: 150px;
+}
+.contact .right form .button button{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    border: 1px solid rgb(220, 77, 20);
+    background: rgb(23, 24, 23);
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 3px 3px rgb(218, 144, 8);
+    text-decoration: rgb(14, 38, 173);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+    color: crimson;
+    background: none;
+}
+footer{
+    background:black;
+    color: #fff;
+    padding: 25px 25px;
+    display: flex;
+}
+footer span{
+    font-size: 20px;
+    font-weight: 500;
+    width: calc(50% - 30px);
+}
+footer div{
+    width: calc(50% - 10px);
+}
+footer span a{
+    color: crimson;
+}
+footer .social-media{
+    margin-left: 350px;
+}
+footer .social-media a{
+    margin: 0 10px;
+    font-size: 20px;
+    color: crimson;
+}
+footer .social-media a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
